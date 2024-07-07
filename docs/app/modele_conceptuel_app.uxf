@@ -1,69 +1,72 @@
-<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>312</x><y>528</y><w>168</w><h>64</h></coordinates><panel_attributes>Person
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>288</x><y>520</y><w>168</w><h>64</h></coordinates><panel_attributes>Person
 --
 lastName
 firstName
-mail</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1216</x><y>680</y><w>168</w><h>40</h></coordinates><panel_attributes>Room
+mail</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1192</x><y>672</y><w>168</w><h>40</h></coordinates><panel_attributes>Room
 -
-maxCapacity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1224</x><y>432</y><w>160</w><h>104</h></coordinates><panel_attributes>Site
+maxCapacity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1200</x><y>424</y><w>160</w><h>104</h></coordinates><panel_attributes>Site
 -
 _ID_
 address
   number
   street
   city
-  NPA</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1256</x><y>536</y><w>104</w><h>24</h></coordinates><panel_attributes>number</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1296</x><y>552</y><w>48</w><h>144</h></coordinates><panel_attributes>lt=-
+  NPA</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1232</x><y>528</y><w>104</w><h>24</h></coordinates><panel_attributes>number</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1272</x><y>544</y><w>48</w><h>144</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1
 has v
-</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>496</x><y>664</y><w>144</w><h>40</h></coordinates><panel_attributes>Student
+</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>472</x><y>656</y><w>144</w><h>40</h></coordinates><panel_attributes>Student
 --
 _ID_
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>584</y><w>192</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;220;50;220;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>872</x><y>640</y><w>168</w><h>88</h></coordinates><panel_attributes>Class
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>368</x><y>576</y><w>192</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;220;50;220;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>848</x><y>632</y><w>168</w><h>88</h></coordinates><panel_attributes>Class
 --
 _ID_
 day
-hour</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>704</x><y>720</y><w>104</w><h>48</h></coordinates><panel_attributes>Attendance
+hour</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>712</y><w>104</w><h>48</h></coordinates><panel_attributes>Attendance
 --
 date
 hour
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>632</x><y>664</y><w>256</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>608</x><y>656</y><w>256</w><h>40</h></coordinates><panel_attributes>lt=-
 m1=*
 m2=*
-assists &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>752</x><y>680</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1032</x><y>680</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=-
+assists &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>728</x><y>672</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1008</x><y>672</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=-
 m1=*
 m2=1
-takes place in &gt;</panel_attributes><additional_attributes>10;20;230;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>872</x><y>488</y><w>168</w><h>88</h></coordinates><panel_attributes>Course
+takes place in &gt;</panel_attributes><additional_attributes>10;20;230;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>848</x><y>408</y><w>168</w><h>88</h></coordinates><panel_attributes>Course
 --
 _ID_
 semester
-year</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>952</x><y>568</y><w>24</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>584</y><w>160</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>180;10;180;50;10;50;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>664</y><w>144</w><h>40</h></coordinates><panel_attributes>Teacher
+year</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>232</x><y>576</y><w>160</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>180;10;180;50;10;50;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>136</x><y>656</y><w>144</w><h>40</h></coordinates><panel_attributes>Teacher
 --
 _ID_
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>696</y><w>760</w><h>128</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>688</y><w>760</w><h>128</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=*
-teaches &gt;</panel_attributes><additional_attributes>10;10;10;140;920;140;920;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>128</x><y>280</y><w>168</w><h>40</h></coordinates><panel_attributes>AttendaceBox
+teaches &gt;</panel_attributes><additional_attributes>10;10;10;140;920;140;920;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>104</x><y>272</y><w>168</w><h>40</h></coordinates><panel_attributes>AttendaceBox
 --
-_ID_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>312</y><w>32</w><h>368</h></coordinates><panel_attributes>lt=-
+_ID_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>192</x><y>304</y><w>32</w><h>368</h></coordinates><panel_attributes>lt=-
 m1=*
 m2=*
-</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1208</x><y>360</y><w>184</w><h>56</h></coordinates><panel_attributes>L'HEIG a plusieurs emplacements 
+</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1184</x><y>352</y><w>184</w><h>56</h></coordinates><panel_attributes>L'HEIG a plusieurs emplacements 
 et se trouve en suisse.
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>400</y><w>104</w><h>40</h></coordinates><panel_attributes>Loan
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>392</y><w>104</w><h>40</h></coordinates><panel_attributes>Loan
 --
-date</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>416</y><w>88</w><h>24</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>408</y><w>104</w><h>48</h></coordinates><panel_attributes>ReturnedLoan
+date</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>96</x><y>408</y><w>88</w><h>24</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>256</x><y>400</y><w>104</w><h>48</h></coordinates><panel_attributes>ReturnedLoan
 --
 beginDate
-endDate</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>424</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>184</x><y>312</y><w>32</w><h>368</h></coordinates><panel_attributes>lt=-
+endDate</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>192</x><y>416</y><w>80</w><h>24</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>304</y><w>32</w><h>368</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=*
-</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>592</x><y>520</y><w>296</w><h>160</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>568</x><y>440</y><w>296</w><h>232</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1..*
-&lt; has </panel_attributes><additional_attributes>10;180;10;20;350;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>872</x><y>336</y><w>168</w><h>88</h></coordinates><panel_attributes>Discipline 
+&lt; has </panel_attributes><additional_attributes>10;270;10;20;350;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>848</x><y>224</y><w>168</w><h>88</h></coordinates><panel_attributes>Discipline 
 --
 _ID_
 description
-duration</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>640</x><y>576</y><w>216</w><h>56</h></coordinates><panel_attributes>Un élève peut seulement assister aux cours 
+duration</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>616</x><y>568</y><w>216</w><h>56</h></coordinates><panel_attributes>Un élève peut seulement assister aux cours 
 auxquels il est inscrit.
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>952</x><y>416</y><w>24</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>928</x><y>304</y><w>24</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>488</y><w>88</w><h>160</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+is teached in &gt;</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>
